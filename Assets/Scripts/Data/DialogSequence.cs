@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Dialog
+namespace Data
 {
 	[CreateAssetMenu(fileName = "New Dialog Sequence", menuName = "ScriptableObjects/Dialog Sequence")]
 	public class DialogSequence : ScriptableObject

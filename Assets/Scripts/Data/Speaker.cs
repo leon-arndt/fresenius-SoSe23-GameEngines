@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Dialog
+namespace Data
 {
-	[CreateAssetMenu(fileName = "New Speaker Sequence", menuName = "ScriptableObjects/Speaker Sequence")]
+	[CreateAssetMenu(fileName = "New Speaker", menuName = "ScriptableObjects/Speaker")]
 	public class Speaker : ScriptableObject
 	{
 		public Sprite speakerSprite;
