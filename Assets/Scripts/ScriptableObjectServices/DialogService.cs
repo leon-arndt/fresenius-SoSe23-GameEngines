@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ScriptableObjectServices
 {
 	[CreateAssetMenu(fileName = "New Dialog Service", menuName = "ScriptableObjects/Dialog Service")]
-	public class DialogService : ScriptableObject
+	public class DialogService : ScriptableObject, IService
 	{
 		public void Play(DialogSequence dialog)
 		{
@@ -12,6 +12,10 @@ namespace ScriptableObjectServices
 			// TODO: set current dialog sequence
 			// TODO: set current dialog sequence step int
 			// TODO: play audio
+		}
+
+		public void Restart()
+		{
 		}
 	}
 }

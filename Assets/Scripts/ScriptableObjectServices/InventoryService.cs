@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ScriptableObjectServices
 {
 	[CreateAssetMenu(fileName = "New InventoryService", menuName = "ScriptableObjects/InventoryService")]
-	public class InventoryService : ScriptableObject
+	public class InventoryService : ScriptableObject, IService
 	{
 		public void Add(object item, int amount = 1)
 		{
@@ -27,6 +27,10 @@ namespace ScriptableObjectServices
 		public int Count(object item)
 		{
 			return 0;
+		}
+
+		public void Restart()
+		{
 		}
 	}
 }

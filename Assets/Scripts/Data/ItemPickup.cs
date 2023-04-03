@@ -7,6 +7,7 @@ namespace Data
 	{
 		public override void OnPickup()
 		{
+			
 			throw new System.NotImplementedException();
 		}
 	}
