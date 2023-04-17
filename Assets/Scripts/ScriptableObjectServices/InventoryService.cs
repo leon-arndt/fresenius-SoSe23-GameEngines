@@ -7,7 +7,7 @@ namespace ScriptableObjectServices
 	[CreateAssetMenu(fileName = "New InventoryService", menuName = "ScriptableObjects/InventoryService")]
 	public class InventoryService : ScriptableObject, IService
 	{
-		public void Add(object item, int amount = 1)
+		public void Add(object item, uint amount = 1)
 		{
 			switch (item)
 			{

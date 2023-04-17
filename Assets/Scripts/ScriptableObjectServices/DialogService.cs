@@ -1,21 +1,29 @@
 using Data;
 using UnityEngine;
+using World;
 
 namespace ScriptableObjectServices
 {
-	[CreateAssetMenu(fileName = "New Dialog Service", menuName = "ScriptableObjects/Dialog Service")]
 	public class DialogService : ScriptableObject, IService
 	{
-		public void Play(DialogSequence dialog)
-		{
-			// TODO: UI
-			// TODO: set current dialog sequence
-			// TODO: set current dialog sequence step int
-			// TODO: play audio
-		}
+		private DialogSequence currentSequence;
+		private int currentStep;
 
 		public void Restart()
 		{
+			currentSequence = null;
+		}
+
+		public void Play(DialogSequence sequence)
+		{
+			if (currentSequence != null && !sequence.shouldInterrupt)
+			{
+				return;
+			}
+
+			currentSequence = sequence;
+			currentStep = 0;
+			FindObjectOfType<DialogPlayer>().PlayAudio(sequence.dialogData[0].audioClip);
 		}
 	}
 }

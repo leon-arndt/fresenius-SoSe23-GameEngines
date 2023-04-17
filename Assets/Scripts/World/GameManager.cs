@@ -8,7 +8,7 @@ namespace World
 	{
 		private void Awake()
 		{
-			GameServiceLocator.StartAll();
+			ScriptableObjectServiceLocator.StartAll();
 		}
 	}
 }

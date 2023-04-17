@@ -4,7 +4,7 @@ using Object = UnityEngine.Object;
 
 namespace ScriptableObjectServices
 {
-	public static class GameServiceLocator
+	public static class ScriptableObjectServiceLocator
 	{
 		private static Object[] _cachedServices;
 		private const string Path = "ScriptableObjectServices";
