@@ -17,6 +17,7 @@ namespace UserInterface
         [SerializeField] private int defaultCapacity = 20;
         [SerializeField] private int maxSize = 100;
         [SerializeField] InventoryItem inventoryItemPrefab;
+        [SerializeField] Transform inventoryLayout;
 
         private void Awake()
         {
@@ -56,7 +57,7 @@ namespace UserInterface
         private void OnItemAdded(ItemAdded itemAdded)
         {
             var item = CreatePooledItem();
-            item.transform.SetParent(transform);
+            item.transform.SetParent(inventoryLayout, false);
             item.Set(itemAdded.Pickup.icon, 1);
         }
     }
