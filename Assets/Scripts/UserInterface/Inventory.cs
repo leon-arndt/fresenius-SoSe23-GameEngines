@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Events;
 using UniRx;
 using UnityEngine;
@@ -10,6 +11,9 @@ namespace UserInterface
         // stack-based ObjectPool available with Unity 2021 and above
         private IObjectPool<InventoryItem> objectPool;
 
+        private int? index;
+
+        private List<int> things;
         // throw an exception if we try to return an existing item, already in the pool
         [SerializeField] private bool collectionCheck = true;
 
