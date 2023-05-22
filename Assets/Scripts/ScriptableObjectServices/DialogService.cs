@@ -1,5 +1,6 @@
 using Data;
 using UnityEngine;
+using UserInterface;
 using World;
 
 namespace ScriptableObjectServices
@@ -23,7 +24,9 @@ namespace ScriptableObjectServices
 
 			currentSequence = sequence;
 			currentStep = 0;
-			FindObjectOfType<DialogPlayer>().PlayAudio(sequence.dialogData[0].audioClip);
+			var dialogData = sequence.dialogData[0];
+			FindObjectOfType<DialogPlayer>().PlayAudio(dialogData.audioClip);
+			FindObjectOfType<DialogUi>().Set(dialogData.speaker, dialogData.contents);
 		}
 	}
 }

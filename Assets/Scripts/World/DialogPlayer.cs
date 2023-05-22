@@ -6,6 +6,9 @@ namespace World
 	{
 		public void PlayAudio(AudioClip audioClip)
 		{
+			var audioSource = GetComponent<AudioSource>();
+			audioSource.clip = audioClip;
+			audioSource.Play();
 		}
 	}
 }

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49930bb49a9d4c38b985ded6ef57ff39, type: 3}
   m_Name: ExampleSpeaker
   m_EditorClassIdentifier: 
-  speakerSprite: {fileID: 21300000, guid: 50d912de228004d31a795d9db38cf8dd, type: 3}
-  speakerName: ExampleSpeaker
+  speakerSprite: {fileID: -628399192, guid: aaed72c6a16c74600a2d945f3468dfab, type: 3}
+  speakerName: Narrator
