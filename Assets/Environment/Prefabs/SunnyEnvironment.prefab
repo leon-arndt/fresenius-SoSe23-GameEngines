@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ecc29ecfc146a7853ed0225728e0ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogSequence: {fileID: 11400000, guid: 0adb712856b4149f4b5a00bb7aa0eee8, type: 2}
+  dialogSequence: {fileID: 11400000, guid: 88ad309ae0a0a4d1798a6c5a05537af8, type: 2}
   characterType: 0
   playOnce: 1
   dialogService: {fileID: 11400000, guid: f01da38bb42e549148c6bcd207fb06b5, type: 2}
