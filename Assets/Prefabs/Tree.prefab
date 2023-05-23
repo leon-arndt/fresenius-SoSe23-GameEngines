@@ -102,7 +102,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Bark Material
-  m_Shader: {fileID: 4800000, guid: 0f4122b9a743b744abe2fb6a0a88868b, type: 3}
+  m_Shader: {fileID: 10604, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -123,7 +123,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: 9f8ff5dda1d5040c19e03d877a9d6643, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2da4cd6056b154fa8b0b1ce9fef6ea26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -151,7 +151,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 32262e78f5c3e434ab3d09594fe3abbb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5943c1aeeb30a4984b3affbe8f602b73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -171,7 +171,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: 374a0e2344df24d5992277454aa26ae9, type: 3}
+        m_Texture: {fileID: 2800000, guid: b537b65f9b4e84d759f0ddb0deff0ef7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -4415,10 +4415,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Leaf Material
-  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
-  m_ValidKeywords:
+  m_Shader: {fileID: 10605, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _WINDQUALITY_NONE
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -4433,7 +4433,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: 9f8ff5dda1d5040c19e03d877a9d6643, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2da4cd6056b154fa8b0b1ce9fef6ea26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ExtraTex:
@@ -4441,11 +4441,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 32262e78f5c3e434ab3d09594fe3abbb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5943c1aeeb30a4984b3affbe8f602b73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
-        m_Texture: {fileID: 2800000, guid: 4f1659eb905d64009922b2a12e9bf7b3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5e06a3fd083194c02ac969f62a140df1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubsurfaceTex:
@@ -4453,7 +4453,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: 374a0e2344df24d5992277454aa26ae9, type: 3}
+        m_Texture: {fileID: 2800000, guid: b537b65f9b4e84d759f0ddb0deff0ef7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
