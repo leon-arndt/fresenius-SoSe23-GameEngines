@@ -1261,6 +1261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 8345070699079395523, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
 --- !u!4 &5115830636842306370 stripped
@@ -1862,6 +1867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SunnyEnvironment
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732185775501489423, guid: f92cc6b735a654000be8543cd5a41632,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92cc6b735a654000be8543cd5a41632, type: 3}
