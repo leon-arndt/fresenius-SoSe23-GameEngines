@@ -13,6 +13,7 @@ namespace Data
 	public struct Dialog
 	{
 		public Speaker speaker;
+		[TextArea(1, 10)]
 		public string contents;
 		public AudioClip audioClip;
 	}
