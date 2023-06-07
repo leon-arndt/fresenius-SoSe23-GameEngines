@@ -26,7 +26,7 @@ namespace ScriptableObjectServices
 			currentStep = 0;
 			var dialogData = sequence.dialogData[0];
 			FindObjectOfType<DialogPlayer>().PlayAudio(dialogData.audioClip);
-			FindObjectOfType<DialogUi>().Set(dialogData.speaker, dialogData.contents);
+			FindObjectOfType<DialogUi>(true).Set(dialogData.speaker, dialogData.contents);
 		}
 	}
 }
