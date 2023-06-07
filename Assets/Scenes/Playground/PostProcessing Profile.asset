@@ -315,13 +315,13 @@ MonoBehaviour:
     m_Value: 0.5
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.52
+    m_Value: 0.5
   shapeFactor:
     m_OverrideState: 1
     m_Value: 0.904
   shapeScale:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 1600
   shapeOffset:
     m_OverrideState: 1
     m_Value: {x: 0, y: 0, z: 0}
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_Value: 1
   sunLightDimmer:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.3
   erosionOcclusion:
     m_OverrideState: 0
     m_Value: 0.1
