@@ -14,13 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogData:
   - speaker: {fileID: 11400000, guid: 146181e032d3d4fc49d872e1d22cbddf, type: 2}
-    contents: To whom Yoharneth-Lahai cometh not with little dreams and sleep he
-      must endure all night the laughter of the gods, with highest mockery, in Pegana. 
-      All night long Yoharneth-Lahai giveth peace to cities until the dawn hour and
-      the departing of Yoharneth-Lahai, when it is time for the gods to play with
-      men again.  Whether the dreams and the fancies of Yoharneth-Lahai be false
-      and the Things that are done in the Day be real, or the Things that are done
-      in the Day be false and the dreams and the fancies of Yoharneth-Lahai be true,
-      none knoweth saving only MANA-YOOD-SUSHAI, who hath not spoken.
-    audioClip: {fileID: 8300000, guid: b5a7f339fe0114798b76ae27a69c5b7b, type: 3}
+    contents: 'All night long Yoharneth-Lahai giveth peace to cities until the
+
+      dawn
+      hour and the departing of Yoharneth-Lahai, when it is time
+
+      for the gods
+      to play with men again.'
+    audioClip: {fileID: 8300000, guid: 5b677b2e4236a42f4b1f7fa2d3000661, type: 3}
   shouldInterrupt: 1
