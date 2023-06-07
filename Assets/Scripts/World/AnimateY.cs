@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace World
 {
@@ -14,8 +16,12 @@ namespace World
         [SerializeField]
         private bool randomStart;
 
-        private float randomOffset;
+        [SerializeField]
+        private bool playOnce;
         
+        private float randomOffset;
+        private float timeOffset;
+
         private void Start()
         {
             startPosition = transform.position;
@@ -25,9 +31,19 @@ namespace World
             } 
         }
 
+        private void OnEnable()
+        {
+            timeOffset = Time.timeSinceLevelLoad;
+        }
+
         private void Update()
         {
-            transform.position = startPosition + animationFactor *  Vector3.up * (curve.Evaluate(((Time.timeSinceLevelLoad + randomOffset)/ animationTime) % 1));
+            var curvePosition = (Time.timeSinceLevelLoad - timeOffset + randomOffset) / animationTime;
+            if (!playOnce)
+            {
+                curvePosition %= 1;
+            }
+            transform.position = startPosition + animationFactor *  Vector3.up * curve.Evaluate(curvePosition);
         }
     }
 }
