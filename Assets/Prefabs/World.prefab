@@ -1245,7 +1245,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  animationTime: 2
+  animationTime: 3
   animationFactor: 1
   randomStart: 0
   playOnce: 1
@@ -1427,7 +1427,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  animationTime: 2
+  animationTime: 3
   animationFactor: 1
   randomStart: 0
   playOnce: 1
@@ -2610,7 +2610,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  animationTime: 2
+  animationTime: 3
   animationFactor: 1
   randomStart: 0
   playOnce: 1
@@ -2944,7 +2944,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  animationTime: 2
+  animationTime: 3
   animationFactor: 1
   randomStart: 0
   playOnce: 1
