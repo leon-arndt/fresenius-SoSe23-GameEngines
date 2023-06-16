@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 2
+  animationDurationSeconds: 3
   parameterName: _Fade
 --- !u!114 &2870026773407664763
 MonoBehaviour:
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 2
+  animationDurationSeconds: 3
   parameterName: _Fade
 --- !u!114 &428737693826445288
 MonoBehaviour:
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 2
+  animationDurationSeconds: 3
   parameterName: _Fade
 --- !u!114 &833758676996771468
 MonoBehaviour:
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 2
+  animationDurationSeconds: 3
   parameterName: _Fade
 --- !u!114 &5013598643980447130
 MonoBehaviour:
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 2
+  animationDurationSeconds: 3
   parameterName: _Fade
 --- !u!114 &8540912332716392589
 MonoBehaviour:
