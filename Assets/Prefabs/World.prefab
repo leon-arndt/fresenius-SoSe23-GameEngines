@@ -551,6 +551,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 5877450621604247231}
+        m_TargetAssemblyTypeName: World.ShaderAnimation, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 5013598643980447130}
         m_TargetAssemblyTypeName: Cinemachine.CinemachineImpulseSource, Cinemachine
         m_MethodName: GenerateImpulse
@@ -1110,6 +1122,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2483603290279062259}
+        m_TargetAssemblyTypeName: World.ShaderAnimation, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 2870026773407664763}
         m_TargetAssemblyTypeName: Cinemachine.CinemachineImpulseSource, Cinemachine
         m_MethodName: GenerateImpulse
@@ -1133,6 +1157,7 @@ GameObject:
   - component: {fileID: 2823781301132467065}
   - component: {fileID: 6474909767316571636}
   - component: {fileID: 667624421810247130}
+  - component: {fileID: 2483603290279062259}
   - component: {fileID: 2870026773407664763}
   m_Layer: 0
   m_Name: Realm
@@ -1249,6 +1274,21 @@ MonoBehaviour:
   animationFactor: 1
   randomStart: 0
   playOnce: 1
+--- !u!114 &2483603290279062259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145024543744952790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7ac4d7df1f4cabac7f9947cb609426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
+  animationDurationSeconds: 2
+  parameterName: _Fade
 --- !u!114 &2870026773407664763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,8 +1484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
-  animationDurationSeconds: 1
-  parameterName: Fade
+  animationDurationSeconds: 2
+  parameterName: _Fade
 --- !u!114 &428737693826445288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,6 +1549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1866708237662394021}
   - component: {fileID: 1518795209604834229}
+  - component: {fileID: 3538250260264583183}
   - component: {fileID: 833758676996771468}
   m_Layer: 0
   m_Name: PoorMan
@@ -1585,6 +1626,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3538250260264583183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497919365874531182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7ac4d7df1f4cabac7f9947cb609426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
+  animationDurationSeconds: 2
+  parameterName: _Fade
 --- !u!114 &833758676996771468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2498,6 +2554,7 @@ GameObject:
   - component: {fileID: 7604747007062021462}
   - component: {fileID: 6185445232462965408}
   - component: {fileID: 1474602319415017896}
+  - component: {fileID: 5877450621604247231}
   - component: {fileID: 5013598643980447130}
   m_Layer: 0
   m_Name: King
@@ -2614,6 +2671,21 @@ MonoBehaviour:
   animationFactor: 1
   randomStart: 0
   playOnce: 1
+--- !u!114 &5877450621604247231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705378752215954395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7ac4d7df1f4cabac7f9947cb609426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
+  animationDurationSeconds: 2
+  parameterName: _Fade
 --- !u!114 &5013598643980447130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,6 +2904,7 @@ GameObject:
   - component: {fileID: 6582882957855259469}
   - component: {fileID: 7350734915486017031}
   - component: {fileID: 7828188808085286306}
+  - component: {fileID: 6286635278910992493}
   - component: {fileID: 8540912332716392589}
   m_Layer: 0
   m_Name: LaughterGods
@@ -2948,6 +3021,21 @@ MonoBehaviour:
   animationFactor: 1
   randomStart: 0
   playOnce: 1
+--- !u!114 &6286635278910992493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977569456571316250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7ac4d7df1f4cabac7f9947cb609426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9ae146e1d3914445282362bc20cc4288, type: 2}
+  animationDurationSeconds: 2
+  parameterName: _Fade
 --- !u!114 &8540912332716392589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4178,6 +4266,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 6286635278910992493}
+        m_TargetAssemblyTypeName: World.ShaderAnimation, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 8540912332716392589}
         m_TargetAssemblyTypeName: Cinemachine.CinemachineImpulseSource, Cinemachine
         m_MethodName: GenerateImpulse
@@ -4281,7 +4381,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5234
+      value: 5270
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -6665,7 +6765,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5312
+      value: 5348
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -10787,7 +10887,7 @@ PrefabInstance:
     - target: {fileID: 1563335767184583551, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1183
+      value: 1219
       objectReference: {fileID: 0}
     - target: {fileID: 4894611892989022968, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -10847,7 +10947,7 @@ PrefabInstance:
     - target: {fileID: 5312723317806576290, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1255
+      value: 1291
       objectReference: {fileID: 0}
     - target: {fileID: 7555769970883118062, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -10862,7 +10962,7 @@ PrefabInstance:
     - target: {fileID: 8641179058361939575, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 2785
+      value: 2821
       objectReference: {fileID: 0}
     - target: {fileID: 8641179058361939575, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -11249,7 +11349,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5231
+      value: 5267
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -16525,7 +16625,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5978
+      value: 6014
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -19225,7 +19325,7 @@ PrefabInstance:
     - target: {fileID: 1563335767184583551, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1183
+      value: 1219
       objectReference: {fileID: 0}
     - target: {fileID: 4894611892989022968, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -19285,7 +19385,7 @@ PrefabInstance:
     - target: {fileID: 5312723317806576290, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1255
+      value: 1291
       objectReference: {fileID: 0}
     - target: {fileID: 7555769970883118062, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -19300,7 +19400,7 @@ PrefabInstance:
     - target: {fileID: 8641179058361939575, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 2782
+      value: 2818
       objectReference: {fileID: 0}
     - target: {fileID: 8641179058361939575, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -21718,7 +21818,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5228
+      value: 5264
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -24399,7 +24499,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5381
+      value: 5417
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -26981,7 +27081,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5273
+      value: 5309
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -29464,7 +29564,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5381
+      value: 5417
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -32658,7 +32758,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5360
+      value: 5396
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -35556,7 +35656,7 @@ PrefabInstance:
     - target: {fileID: 1563335767184583551, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1183
+      value: 1219
       objectReference: {fileID: 0}
     - target: {fileID: 4894611892989022968, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -35616,7 +35716,7 @@ PrefabInstance:
     - target: {fileID: 5312723317806576290, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1255
+      value: 1291
       objectReference: {fileID: 0}
     - target: {fileID: 7555769970883118062, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -35631,7 +35731,7 @@ PrefabInstance:
     - target: {fileID: 8641179058361939575, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 2779
+      value: 2815
       objectReference: {fileID: 0}
     - target: {fileID: 8682747385118687896, guid: 73939e170d4f2439ebd744199d8af335,
         type: 3}
@@ -39124,7 +39224,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 6011
+      value: 6047
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -41607,7 +41707,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 6056
+      value: 6092
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -44501,7 +44601,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5324
+      value: 5360
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
@@ -47495,7 +47595,7 @@ PrefabInstance:
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 6023
+      value: 6059
       objectReference: {fileID: 0}
     - target: {fileID: 7642408434759609778, guid: 4f7f0e0a6af954fea869b5d41e3311c4,
         type: 3}
