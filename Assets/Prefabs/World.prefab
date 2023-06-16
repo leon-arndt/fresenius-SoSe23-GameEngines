@@ -19969,6 +19969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
       propertyPath: m_RootOrder
@@ -20062,6 +20067,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
@@ -20157,6 +20167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
       propertyPath: m_RootOrder
@@ -20250,6 +20265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
@@ -20773,6 +20793,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
       propertyPath: m_RootOrder
@@ -20866,6 +20891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077828103455454079, guid: b0a7714b2a0d1460cb13fb0257f8c525,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4106107369556084548, guid: b0a7714b2a0d1460cb13fb0257f8c525,
         type: 3}
